@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Django | file upload</title>
+  </head>
+  <body>
+    <div class="container" style="padding: 20px">
+      <div class="row">
+        <div class="col-12">
+          <p></p>
+          <h1>Django file upload</h1>
+          <p></p>
+
+          <form method="POST" class="post-form" enctype="multipart/form-data">
+            <input type="hidden" name="csrfmiddlewaretoken" value="T26J87p86jCluQnwa4IeodjpwHIV53mgoGdp7XXmGa0E3EthCkXEcWwYO1BFBIlH"> <p>
+    <label for="id_firstname">Enter First Name:</label>
+    <input type="text" name="firstname" maxlength="50" class="form-control" required id="id_firstname">
+    
+    
+  </p>
+
+  
+  <p>
+    <label for="id_lastname">Enter Last Name:</label>
+    <input type="text" name="lastname" maxlength="50" class="form-control" required id="id_lastname">
+    
+    
+  </p>
+
+  
+  <p>
+    <label for="id_email">Enter Email:</label>
+    <input type="email" name="email" maxlength="254" class="form-control" required id="id_email">
+    
+    
+  </p>
+
+  
+  <p>
+    <label for="id_file">File:</label>
+    <input type="file" name="file" class="form-control" required id="id_file">
+    
+    
+      
+    
+  </p>
+            <button type="submit" class="btn btn-primary">Save</button>
+
+            <a href= "" download="">Download</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
